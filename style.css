@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
+h1 {
+    background-color: honeydew;
+    color: green;
+    text-shadow: 0 0 10px rgb(4, 246, 24);
+}
+
+p {
+    animation: 3s infinite alternate slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
 body {
     background-image: url(./img/body_background.jpg);
 }
